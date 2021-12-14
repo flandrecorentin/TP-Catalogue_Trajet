@@ -8,7 +8,10 @@ de ce TP se fait en deux temps:
 1: Réaliser une application permettant de gérer des trajets (simples ou
 complexes), tout cela dans un catalogue. Seule l'utilisation des 
 bibliothèques iostream (pour cin, cout, cerr) et cstring (pour strlen, 
-strcpy) sont autorisés, d'où la conception du projet difficile à mettre
-en place. Voir le sujet du TP partie 2 dans l'archive
+strcpy) sont autorisées, d'où la conception du projet difficile à mettre
+en place. Voir le sujet du TP partie 2 dans l'archive.
 
 2: EST EN TRAIN D'ÊTRE MIS EN OEUVRE
+
+Pour tester le programme, il est possible d'éxecuter les commandes 
+"make" puis "./sejours" (ou "valgrind ./sejours")
