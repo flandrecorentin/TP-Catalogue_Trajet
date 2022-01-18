@@ -9,9 +9,17 @@ de ce TP se fait en deux temps:
 complexes), tout cela dans un catalogue. Seule l'utilisation des 
 bibliothèques iostream (pour cin, cout, cerr) et cstring (pour strlen, 
 strcpy) sont autorisées, d'où la conception du projet difficile à mettre
-en place. Voir le sujet du TP partie 2 dans l'archive.
+en place. Voir le sujet du TP2 dans l'archive.
 
-2: EST EN TRAIN D'ÊTRE MIS EN OEUVRE
+2: Réalisation de deux commandes/deux nouvelles fonctionnalités qui 
+sont -chargement d'un catalogue de trajets (lecture d'un fichier) 
+-sauvegarde du catalogue courant (écriture dans un fichier). La 
+sauvegarde ou le chargement de ces catalogues sauvegardés se font
+selon 4 différents modes (sans critères de sélection, selon le 
+type de trajets (Simple ou Complexe), selon la ville de départ et/ou
+arrivée, puis selon les index des trajets entre les indicdes n et m 
+[n;m]). Voir le sujet du TP3 dans l'archive.
+
 
 Pour tester le programme, il est possible d'éxecuter les commandes 
 "make" puis "./sejours" (ou "valgrind ./sejours")
