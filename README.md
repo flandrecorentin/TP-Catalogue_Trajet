@@ -1,9 +1,9 @@
 # TP-Catalogue_Trajet
 
 Ce projet "TP-Catalogue_Trajet" est un TP (Travaux Pratiques) réalisé dans 
-le cadre me des études. Ce TP a pour but de mettre en oeuvre les 
-connaissances apprises en cours (sur le langage C++). La mise en oeuvre
-de ce TP se fait en deux temps:
+le cadre me des études (3° année INSA Lyon). Ce TP a pour but de mettre
+en oeuvre les  connaissances apprises en cours (sur le langage C++). 
+La mise en oeuvre de ce TP se fait en deux temps:
 
 1: Réaliser une application permettant de gérer des trajets (simples ou
 complexes), tout cela dans un catalogue. Seule l'utilisation des 
@@ -18,8 +18,7 @@ sauvegarde ou le chargement de ces catalogues sauvegardés se font
 selon 4 différents modes (sans critères de sélection, selon le 
 type de trajets (Simple ou Complexe), selon la ville de départ et/ou
 arrivée, puis selon les index des trajets entre les indicdes n et m 
-[n;m]). Voir le sujet du TP3 dans l'archive.
-
+[n;m]).
 
 Pour tester le programme, il est possible d'éxecuter les commandes 
 "make" puis "./sejours" (ou "valgrind ./sejours")
