@@ -19,7 +19,7 @@
 using namespace std;
 #include <iostream>
 #include <cstring>
-
+ 
 ///////////////////////////////////////////////////////////////////  PRIVE
 //------------------------------------------------------------- Constantes
 
@@ -66,6 +66,23 @@ const void TS::Affichage()
 {
   Trajet::Affichage();
   cout<< "    Moyen de transport: "<< Locomotion << endl; 
-  cout << "***********************************" <<endl;
+  cout.width(70);
+  cout.fill('*');
+  cout << "*" <<endl;
 }
 
+string TS::LigneSauvegarde()
+//Algorithme: pas d'algorithme
+{
+  string ligne;
+
+  ligne+="Simple;";
+  ligne+=Depart;
+  ligne+=";";
+  ligne+=Arrivee;
+  ligne+=";";
+  ligne+=Locomotion;
+  ligne+=";";
+  
+  return ligne;
+}

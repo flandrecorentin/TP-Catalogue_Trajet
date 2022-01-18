@@ -74,3 +74,8 @@ using namespace std;
     data->Affichage();
   } //----- fin de Affichage
 
+  string MaillonTrajet::LigneSauvegarde(){
+    string ligne = data->LigneSauvegarde();
+    return ligne;
+  } //----- fin de LigneSauvegarde
+

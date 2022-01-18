@@ -70,6 +70,12 @@ void setNext(MaillonTrajet * next);
 // Contrat : Un pointeur de MaillonTrajet en paramètre
 //
 
+string LigneSauvegarde();
+// Mode d'emploi : 
+// Renvoi du string au format de sauvegarde du 
+//   trajet contenu
+// Contrat : Pas de contrat
+
 protected:
   Trajet * data;
   MaillonTrajet * next;

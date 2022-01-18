@@ -8,9 +8,11 @@
 *************************************************************************/
 
 //---------- Interface du module <TS> (fichier TS.h) -------------------
+
 #if ! defined ( Trajet_H )
 #define Trajet_H
-
+#include <string>
+using namespace std;
 class Trajet
 {
 //------------------------------------------------------------------------
@@ -58,6 +60,11 @@ char * getArrivee();
 // Mode d'emploi :
 // Renvoie l'arrivée du trajet
 // Contrat : pas de contrat
+
+virtual string LigneSauvegarde();
+// Mode d'emploi : 
+// Renvoi de la ligne formatée pour la sauvegarde du Trajet
+// Contrat : Pas de contrat
 
 ///////////////////////////////////////////////////////////////  PROTECTED
 protected:

@@ -82,6 +82,20 @@ int getSize();
 // Recuperation de la taille
 // Contrat : Pas de contrat
 
+
+
+void Charger(ifstream & monfic, string mode, string param1, string param2);
+// Mode d'emploi :
+// 
+// Contrat : Pas de contrat
+
+
+string TexteSauvegarde();
+// Mode d'emploi : 
+// Renvoie le texte à écrire dans le fichier de 
+//  sauvegarde
+// Contrat : Pas de contrat
+
 protected:
   MaillonTrajet * Head; //Pointeur du premier MaillonTrajet
   MaillonTrajet * Tail; //Pointeur du dernier MaillonTrajet

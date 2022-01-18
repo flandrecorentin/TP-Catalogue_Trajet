@@ -58,3 +58,31 @@ const void TC::Affichage(){
   maListeTrajet.AffichageTC();
 } 
 
+string TC::LigneSauvegarde()
+//Algorithme: pas d'algorithme
+{
+  string ligne;
+
+  ligne+="Complexe;";
+  ligne+=Depart;
+  ligne+=";";
+  ligne+=Arrivee;
+  ligne+=";";
+
+  string ligneTS = maListeTrajet.TexteSauvegarde();
+  //On réutilise la méthode de formatage des trajets simples
+  //  prévue pour le catalogue
+  //On reformate le string obtenu pour convenir à notre TCw
+  //  ci-dessous
+  ligneTS.erase(0,7);
+  for(unsigned int i=0; i< ligneTS.size(); i++){
+    if(ligneTS[i] == '\n')     //Si c'est un retour chariot
+    {
+      ligneTS.erase(i,8);   //Efface le i-ème caractère
+    }
+  }
+
+  ligne+=ligneTS;
+  
+  return ligne;
+}

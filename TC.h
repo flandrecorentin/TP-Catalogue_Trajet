@@ -11,7 +11,6 @@
 //---------- Interface du module <TC> (fichier TC.h) -------------------
 #if ! defined ( TC_H )
 #define TC_H
-
 #include "ListeTrajet.h"
 
 class TC:public Trajet{
@@ -58,6 +57,11 @@ public:
 // Affiche un trajet
 // Contrat : Pas de contrat
 //
+
+  string LigneSauvegarde();
+// Mode d'emploi : 
+// Renvoi de la ligne de sauvegarde du TC
+// Contrat : Pas de contrat
 
 protected:
   ListeTrajet maListeTrajet; // La liste de trajets composant le TC

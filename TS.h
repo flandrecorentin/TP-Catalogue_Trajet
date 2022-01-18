@@ -10,7 +10,6 @@
 //---------- Interface du module <TS> (fichier TS.h) -------------------
 #if ! defined ( TS_H )
 #define TS_H
-
 class TS:public Trajet{
 //------------------------------------------------------------------------
 // Rôle du module <TS>
@@ -47,6 +46,8 @@ virtual const void Affichage();
 // Réalise l'affichage d'un trajet simple 
 // Contrat : Pas de contrat
 //
+
+string LigneSauvegarde();
 
 ///////////////////////////////////////////////////////////////  PROTECTED
 protected:
